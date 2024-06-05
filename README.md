@@ -1,16 +1,27 @@
-# Analisis DB Pedidos - SQL
+# Orders DB Analysis - SQL
 
-Este proyecto es una implementación de una base de datos para un local de comida rápida. La base de datos incluye la tabla principal de pedidos y otras tablas como productos, empleados, repartidores, entre otras. El objetivo principal es responder a una serie de preguntas propuestas por la cátedra utilizando consultas MySQL integradas en Python.
+This project is an implementation of a database for a fast-food restaurant. The database includes the main orders table and other tables such as products, employees, delivery personnel, among others. The primary objective is to answer a series of questions proposed by the chair using MySQL queries integrated in Python.
 
-A partir de cada pregunta, se resolvió creando un DataFrame y un archivo `.csv`, los cuales pueden ser visualizados en la carpeta `csv`.
+For each question, the solution involved creating a DataFrame and a .csv file, which can be viewed in the csv folder.
 
 ---
 
-## Base de datos
+## Database
 
-La base de datos utilizada es sobre los pedidos de un local, qué empleados intervinieron en ellos y los productos. Está compuesta por una tabla principal pedidos, la cual se encuentra normalizada y se une al resto de sus tablas mediante PK-FK, obteniéndose el siguiente diagrama de entidad relación:
+The database used is about the orders of a restaurant, which employees were involved in them, and the products. It is composed of a main orders table, which is normalized and linked to the rest of its tables via PK-FK, resulting in the following entity-relationship diagram:
 
 ![alt text](image.png)
 
+## Project Structure
+ - *Data Analysis*: The primary focus is on answering analytical questions about the orders.
+ - *MySQL Queries*: Queries are written in MySQL and integrated with Python for data extraction and manipulation.
+ - *DataFrames and CSVs*: Each query result is stored in a DataFrame and exported to a CSV file for further analysis and visualization.
 
-Este proyecto forma parte un un Bootcamp de Data Analyst en Upgrade Hub. 
+## How to Use
+- Setup: Ensure you have Python and MySQL installed on your system.
+- Database: Import the database schema and data into your MySQL server.
+- Scripts: Run the Python scripts to execute the MySQL queries and generate the CSV files.
+- Analysis: Review the CSV files in the csv folder for insights. 
+
+
+This project is part of a Data Analyst Bootcamp at Upgrade Hub.
